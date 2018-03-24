@@ -1,0 +1,10 @@
+doctype html
+html
+  script(src = 'https://cdn.bootcss.com/socket.io/2.0.4/socket.io.js')
+  script.
+    socket = io()
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    block content

@@ -1,0 +1,8 @@
+.right-arrow {
+	height: 8px;
+	width: 8px;
+	margin: 0;
+	transform: rotate(45deg);
+	border-right: solid 3px lightgrey;
+	border-top: solid 3px lightgrey;
+}
