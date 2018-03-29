@@ -1,3 +1,4 @@
+/*
 
 redis: {
 	uid: {
@@ -72,3 +73,5 @@ message types:
 		chars: Array,
 		addFriendMessages: []
 	}
+
+*/

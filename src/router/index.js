@@ -14,6 +14,7 @@ import NewFriends from '@/components/home/NewFriends'
 import auth from '../auth'
 import User from '@/components/User'
 import Chat from '@/components/Chat'
+import MyAccount from '@/components/MyAccount'
 
 Vue.use(Router)
 
@@ -75,6 +76,10 @@ var router = new Router({
         path: "chat/:uid",
         name: "chat",
         component: Chat,
+      }, {
+        path: "myaccount",
+        name: "myaccount",
+        component: MyAccount,
       }, {
         path: "*",
         name: "wechatHome",
